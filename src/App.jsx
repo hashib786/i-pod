@@ -1,5 +1,13 @@
+import Buttons from "./Buttons";
+import Screen from "./Screen";
+
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <div className="pod__container">
+      <Screen />
+      <Buttons />
+    </div>
+  );
 }
 
 export default App;
